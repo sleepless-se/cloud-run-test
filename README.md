@@ -13,6 +13,7 @@ You can change Cloud Run setting in `cloudbuild.yaml`.
 If you want to change service name, replace `hello` to your service name.
 
 
+
 ## Google Cloud Run自動デプロイの例
 
 これは、GitHubを使用したGoogle Cloud Runの自動デプロイの例です。
