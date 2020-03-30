@@ -8,6 +8,10 @@ This is example for auto deploy for Google Cloud Run with GitHub.
 1. [Connect your GitHub repository.Then add trigger](https://console.cloud.google.com/cloud-build/triggers)
 1. Push any change to git branch! It's build automatically `build` and `deploy` on Cloud Run!
 
+* If you want to publish this service, you need add `allUsers` to permissions as `Cloud Run launch source`.
+[https://cloud.google.com/run/docs/securing/managing-access](https://cloud.google.com/run/docs/securing/managing-access)
+
+
 You can change Cloud Run setting in `cloudbuild.yaml`.
 
 If you want to change service name, replace `hello` to your service name.
@@ -23,6 +27,9 @@ If you want to change service name, replace `hello` to your service name.
 1. [Cloud Run管理者ステータスを有効にする]（https://console.cloud.google.com/cloud-build/settings/service-account）
 1. [GitHubリポジトリを接続します。次にトリガーを追加します]（https://console.cloud.google.com/cloud-build/triggers）
 1. 何か変更をgitブランチにプッシュします！ Cloud Runで自動的に「ビルド」および「デプロイ」されます。
+
+* このサービスを公開する場合は、 `allRuns`を` Cloud Run 起動元`として権限に追加する必要があります。
+[https://cloud.google.com/run/docs/securing/managing-access](https://cloud.google.com/run/docs/securing/managing-access)
 
 Cloud Runの設定は、 `cloudbuild.yaml`で変更できます。
 
