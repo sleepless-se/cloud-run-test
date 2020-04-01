@@ -31,9 +31,6 @@ Default options
 1. [GitHubリポジトリを接続します。次にトリガーを追加します]（https://console.cloud.google.com/cloud-build/triggers）
 1. 何か変更をgitブランチにプッシュします！ Cloud Runで自動的に「ビルド」および「デプロイ」されます。
 
-* このサービスを公開する場合は、 `allRuns`を` Cloud Run 起動元`として権限に追加する必要があります。
-[https://cloud.google.com/run/docs/securing/managing-access](https://cloud.google.com/run/docs/securing/managing-access)
-
 Cloud Runの設定は、 `cloudbuild.yaml`で変更できます。
 
 サービス名を変更する場合は、 `hello`をサービス名に置き換えます。
